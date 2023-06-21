@@ -1,0 +1,77 @@
+.text {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 200px;
+  font-size: 3em;
+  color: white;
+}
+body {
+  background-color: rgb(251, 211, 28);
+  position: relative;
+}
+.left-bottom{
+    border-bottom: 200px solid rgba(255,85,90,255);
+	border-left: 0;
+	border-right: 400px solid transparent;
+	width: 40%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+}
+.right-bottom{
+    border-bottom: 200px solid rgba(255,85,90,255);
+	border-right: 0;
+	border-left: 400px solid transparent;
+	width: 40%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+}
+
+div.smileyface {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ffe632;
+  background: rgba(0, 0, 0, 0.281);
+}
+
+p.eyes {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: #22222293;
+  position: absolute;
+  left: 55px;
+}
+
+p.eyes.lefteye {
+  top: 35px;
+}
+
+p.eyes.righteye {
+  top: 65px;
+}
+
+div.smile {
+  transform: rotate(-90deg);
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 0;
+  right: 0;
+  height: 40px;
+  width: 45px;
+  margin: 0 auto;
+  border-bottom: 5px solid #22222293;
+  border-radius: 100%;
+}
+
